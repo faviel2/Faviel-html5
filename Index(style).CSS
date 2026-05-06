@@ -1,0 +1,47 @@
+#fondoa{
+height: 100vh;
+    width: 100vw;
+position: fixed;
+z-index: -2;
+margin: 0%;
+object-fit: cover;
+top: 0px;
+left: 0px;
+}
+
+head{
+text-align: start;
+list-style: none;
+}
+
+        .DatosProfesionales{
+    position: absolute;
+text-align: right;
+max-inline-size: 50ch;
+right: 30px;
+top: 120px;
+    }
+
+#datos-academicos{
+    position: absolute;
+text-align: right;
+top: 540px;
+right: 0px;
+
+}
+
+    body{
+color: white;
+/*background-image: url("wallpapers-room_com___background_grunge_by_whatsamahoozit_1440x900.png");
+    background-position: center;
+    background-size: 100% auto;           
+    margin: 0;*/
+
+h3{color: orangered;}
+        text-align: start;
+    h1 ,h2 ,title{color:rgb(139, 0, 28);}
+        .logo{
+        border-image-source:"Lucid_Origin_un_logo_negro_y_rojo_vibrante_y_dinmico_para_una__0.jpg" ;
+        top: 1%; right: 1%; position: absolute; width: 120px;  height: auto;}
+    }
+    footer{text-align: center;}
