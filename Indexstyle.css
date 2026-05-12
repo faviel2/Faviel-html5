@@ -1,3 +1,5 @@
+
+
 #fondoa{
 height: 100vh;
     width: 100vw;
@@ -9,40 +11,55 @@ top: 0px;
 left: 0px;
 }
 
-head{
-text-align: start;
-list-style: none;
-}
-
         .DatosProfesionales{
-    position: relative;
-text-align: right;
+text-align: left;
 max-inline-size: 50ch;
-right: 30px;
-top: 120px;
+right: 0px;
     }
 
 #datos-academicos{
-    position: relative;
-text-align: right;
-top: 540px;
+text-align: left;
 right: 0px;
 
 }
 
     body{
-color: white;
-    position: relative;}
+        position: static;
+        max-width: 100%;
+        text-align: start;
+    color: white;
+    }
+    
+    .DatosPersonalesD{
+position: absolute;
+
+    }
 
 h3{color: orangered;}
-        text-align: start;
-    h1 ,h2 ,title{color:rgb(139, 0, 28);}
-        .logo{
-        border-image-source:"Lucid_Origin_un_logo_negro_y_rojo_vibrante_y_dinmico_para_una__0.jpg" ;
-        top: 1%; right: 1%; position: absolute; width: 120px;  height: auto;}
     
-    footer{position: fixed;
-        text-align: center;
+h1 ,h2 ,title{color:rgb(139, 0, 28);}
+
+.PanelIzquierdo{
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: left;
+    padding-bottom: 120px;
+}
+
+
+.logo{
+    /*border-image-source:"Lucid_Origin_un_logo_negro_y_rojo_vibrante_y_dinmico_para_una__0.jpg" ;
+    top: 1%; ; position: absolute;*/ width: 120px; right: 1%;  /*height: auto;
+margin: 20px;*/}
+
+.footer{
+    position: relative;
+}
+footer{position: fixed;
+    text-align: center;
     bottom : 0px;
-right: 0px;
-left: 0px;}
+    right: 0px;
+    left: 0px;
+background-color: black;
+}
