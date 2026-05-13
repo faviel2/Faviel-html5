@@ -10,7 +10,8 @@
 }
 .DatosProfesionales{
 background-color: #000f;
-border: white;
+border: white
+    z-index: 3;
 }
 #datos-academicos{
 
