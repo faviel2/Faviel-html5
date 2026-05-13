@@ -8,6 +8,13 @@
     top: 0px;
     left: 0px;
 }
+.DatosProfesionales{
+background-color: #000d;
+border: white;
+}
+#datos-academicos{
+
+}
 body{
     color: white;
     position: relative;
