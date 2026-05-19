@@ -1,0 +1,60 @@
+#fondoa{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -2;
+    margin: 0%;
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+}
+.DatosProfesionales{
+    background-color: #000;
+    border: 15px solid white;
+    z-index: 3;
+}
+#datos-academicos{
+    background-color: #000;
+    border: 15px solid white;
+    z-index: 3;
+}
+body{
+    color: white;
+    position: relative;
+}
+h3{
+    color: orangered;
+}
+h1 ,h2{
+    color:rgb(139, 0, 28);
+}
+header, section, div{
+    width: 45vw;
+    overflow-wrap: break-word;
+}
+.panel_derecho{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* margin: 50px; */
+    padding-bottom: 100px;
+    background-color: #000;
+    border: 15px solid white;
+
+}
+.logo{
+    width: 120px;
+}
+.logo_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background-color: #000;
+}
